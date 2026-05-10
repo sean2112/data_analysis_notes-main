@@ -10,6 +10,10 @@ export default defineConfig({
     title: '数据分析笔记',
     description: '个人知识库',
 
+    markdown: {
+        math: 'mathjax'
+    },
+
     themeConfig: {
         outline: {
             level: [2, 3],
@@ -32,6 +36,7 @@ export default defineConfig({
                     ]
                 }
             ],
+
             '/数据库/': [
                 {
                     text: '数据库',
