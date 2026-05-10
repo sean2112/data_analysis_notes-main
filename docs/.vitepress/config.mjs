@@ -1,3 +1,5 @@
+import { defineConfig } from 'vitepress'
+
 export default defineConfig({
     title: '数据分析笔记',
     description: '个人知识库',
