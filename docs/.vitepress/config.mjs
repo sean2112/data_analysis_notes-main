@@ -1,8 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    base: '/data_analysis_notes/',
+    base: process.env.NODE_ENV === 'production'
+        ? '/data_analysis_notes/'
+        : '/',
+
     ignoreDeadLinks: true,
+
     title: '数据分析笔记',
     description: '个人知识库',
 
@@ -24,7 +28,7 @@ export default defineConfig({
                         { text: 'Excel', link: '/数据分析/Excel' },
                         { text: 'Pandas', link: '/数据分析/Pandas' },
                         { text: '统计学', link: '/数据分析/统计学' },
-                        { text: '电商数据指标', link: '/数据分析/电商数分指标' }
+                        { text: '电商数据指标', link: '/数据分析/电商数据指标' }
                     ]
                 }
             ],
