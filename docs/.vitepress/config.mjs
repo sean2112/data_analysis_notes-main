@@ -1,0 +1,38 @@
+export default defineConfig({
+    title: '数据分析笔记',
+    description: '个人知识库',
+
+    themeConfig: {
+        outline: {
+            level: [2, 3],
+            label: '目录'
+        },
+
+        nav: [
+            { text: '首页', link: '/' }
+        ],
+
+        sidebar: {
+            '/数据分析/': [
+                {
+                    text: '数据分析',
+                    items: [
+                        { text: 'Excel', link: '/数据分析/Excel' },
+                        { text: 'Pandas', link: '/数据分析/Pandas' },
+                        { text: '统计学', link: '/数据分析/统计学' },
+                        { text: '电商数据指标', link: '/数据分析/电商数分指标' }
+                    ]
+                }
+            ],
+            '/数据库/': [
+                {
+                    text: '数据库',
+                    items: [
+                        { text: 'MySQL查询易错点', link: '/数据库/MySQL查询易错点' },
+                        { text: 'MySQL窗口函数', link: '/数据库/MySQL窗口函数' }
+                    ]
+                }
+            ]
+        }
+    }
+})
