@@ -4,6 +4,21 @@
 
 ---
 
+## 🌐 在线访问
+
+点击下方按钮直接访问我的数据分析笔记网站：
+
+<p align="center">
+  <a href="https://sean2112.github.io/data_analysis_notes/" target="_blank">
+    <img src="https://img.shields.io/badge/在线访问-数据分析笔记-blue?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+📎 网站地址：  
+https://sean2112.github.io/data_analysis_notes/
+
+---
+
 ## 目录
 
 1. [Excel 数据清洗与分析](./Excel.md)  
