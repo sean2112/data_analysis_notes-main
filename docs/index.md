@@ -10,4 +10,4 @@
 - [电商数据指标](./数据分析/电商数据指标)
 - [MySQL查询易错点](./数据库/MySQL查询易错点)
 - [MySQL窗口函数](./数据库/MySQL窗口函数)
-- [MySQL case when语句](./数据库/MySQL的case when语句)
+- [MySQL的case when语句](./数据库/MySQL的case when语句)
