@@ -32,7 +32,7 @@ export default defineConfig({
           { text: 'Excel', link: '/数据分析/Excel' },
           { text: 'Pandas', link: '/数据分析/Pandas' },
           { text: '统计学', link: '/数据分析/统计学' },
-          { text: '电商数据指标', link: '/数据分析/电商数据指标' }
+          { text: '电商数据指标', link: '/数据分析/电商数据指标' },
           { text: '业务分析', link: '/数据分析/业务分析' }
         ]
       },
