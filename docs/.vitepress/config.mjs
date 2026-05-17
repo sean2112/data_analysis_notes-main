@@ -1,21 +1,4 @@
 import { defineConfig } from 'vitepress'
-import fs from 'fs'
-import path from 'path'
-
-function getSidebar(dirPath, basePath) {
-  const fullPath = path.resolve(__dirname, '..', dirPath)
-  const files = fs.readdirSync(fullPath)
-
-  return files
-    .filter(file => file.endsWith('.md') && file !== 'index.md')
-    .map(file => {
-      const name = file.replace('.md', '')
-      return {
-        text: name,
-        link: `${basePath}/${name}`
-      }
-    })
-}
 
 export default defineConfig({
   base: process.env.NODE_ENV === 'production'
@@ -45,12 +28,21 @@ export default defineConfig({
       {
         text: '数据分析',
         collapsed: false,
-        items: getSidebar('数据分析', '/数据分析')
+        items: [
+          { text: 'Excel', link: '/数据分析/Excel' },
+          { text: 'Pandas', link: '/数据分析/Pandas' },
+          { text: '统计学', link: '/数据分析/统计学' },
+          { text: '电商数据指标', link: '/数据分析/电商数据指标' }
+        ]
       },
       {
         text: '数据库',
         collapsed: false,
-        items: getSidebar('数据库', '/数据库')
+        items: [
+          { text: 'MySQL查询易错点', link: '/数据库/MySQL查询易错点' },
+          { text: 'MySQL窗口函数', link: '/数据库/MySQL窗口函数' },
+          { text: 'MySQL case when语句', link: '/数据库/MySQL的case when语句' }
+        ]
       }
     ]
   }
