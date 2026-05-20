@@ -1,8 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/data_analysis_notes/',
-  base: process.env.NODE_ENV === 'production'
+  base: process。env.NODE_ENV === 'production'
     ? '/data_analysis_notes/'
     : '/',
 
@@ -44,7 +43,7 @@ export default defineConfig({
         items: [
           { text: 'MySQL查询易错点', link: '/数据库/MySQL查询易错点' },
           { text: 'MySQL窗口函数', link: '/数据库/MySQL窗口函数' },
-          { text: 'MySQL的case_when语句', link: '/数据库/MySQL的case_when语句' }
+          { text: 'MySQL的case_when语句', link: '/数据库/MySQL的case_when语句' },
           { text: 'MySQLgroup_concat函数用法', link: '/数据库/MySQLgroup_concat函数用法' }
         ]
       }
