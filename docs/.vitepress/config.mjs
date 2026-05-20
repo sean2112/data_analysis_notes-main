@@ -34,6 +34,7 @@ export default defineConfig({
           { text: '统计学', link: '/数据分析/统计学' },
           { text: '电商数据指标', link: '/数据分析/电商数据指标' },
           { text: '业务分析', link: '/数据分析/业务分析' }
+          
         ]
       },
       {
@@ -42,7 +43,8 @@ export default defineConfig({
         items: [
           { text: 'MySQL查询易错点', link: '/数据库/MySQL查询易错点' },
           { text: 'MySQL窗口函数', link: '/数据库/MySQL窗口函数' },
-          { text: 'MySQL case when语句', link: '/数据库/MySQL的case when语句' }
+          { text: 'MySQL的case_when语句', link: '/数据库/MySQL的case_when语句' }
+          { text: '', link: '/数据分析/业务分析' }
         ]
       }
     ]
