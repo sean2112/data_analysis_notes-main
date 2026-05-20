@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/data_analysis_notes/',
   base: process.env.NODE_ENV === 'production'
     ? '/data_analysis_notes/'
     : '/',
