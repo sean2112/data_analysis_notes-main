@@ -30,6 +30,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Excel', link: '/数据分析/Excel' },
+          { text: 'Pandas基础', link: '/数据分析/Pandas基础' },
           { text: 'Pandas', link: '/数据分析/Pandas' },
           { text: '统计学', link: '/数据分析/统计学' },
           { text: '电商数据指标', link: '/数据分析/电商数据指标' },
