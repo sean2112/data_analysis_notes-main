@@ -44,7 +44,8 @@ export default defineConfig({
           { text: 'MySQL查询易错点', link: '/数据库/MySQL查询易错点' },
           { text: 'MySQL窗口函数', link: '/数据库/MySQL窗口函数' },
           { text: 'MySQL的case_when语句', link: '/数据库/MySQL的case_when语句' },
-          { text: 'MySQLgroup_concat函数用法', link: '/数据库/MySQLgroup_concat函数用法' }
+          { text: 'MySQLgroup_concat函数用法', link: '/数据库/MySQLgroup_concat函数用法' },
+          { text: 'MySQLregexp_like函数用法', link: '/数据库/MySQLregexp_like函数用法' }
         ]
       }
     ]
